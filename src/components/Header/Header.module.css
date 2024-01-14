@@ -1,0 +1,8 @@
+.header {
+	background-color: var(--c-primary);
+	padding: 50px 0;
+}
+
+.wrapper {
+	display: flex;
+}

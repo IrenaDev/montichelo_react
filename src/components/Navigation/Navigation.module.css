@@ -1,0 +1,30 @@
+.navigation {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	gap: 93px;
+}
+
+.item {
+	position: relative;
+}
+
+.item::before {
+	border: 1px solid var(--c-white);
+	transform: translateY(-50%);
+	display: inline-block;
+	border-radius: 50%;
+	position: absolute;
+	height: 5px;
+	content: '';
+	left: -15px;
+	width: 5px;
+	top: 50%;
+}
+
+.link {
+	font-family: var(--f-open-sans);
+	color: var(--c-white);
+	font-weight: 400;
+	font-size: 14px;
+}

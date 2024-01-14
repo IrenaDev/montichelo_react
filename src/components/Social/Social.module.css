@@ -1,0 +1,20 @@
+.social {
+	display: flex;
+	gap: 20px;
+}
+
+.icon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid var(--c-white);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon img {
+	height: 18px;
+	width: auto;
+}

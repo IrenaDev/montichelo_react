@@ -1,0 +1,70 @@
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Source+Sans+3&display=swap';
+
+:root {
+	/* Colors */
+	--c-primary: #55b7ff;
+	--c-secondary: #7e5aff;
+	--c-dark: #2c4058;
+	--c-white: #fff;
+	--c-black: #000;
+
+	/* Fonts */
+	--f-source-sans-3: 'Source Sans 3', sans-serif;
+	--f-montserrat: 'Montserrat', sans-serif;
+	--f-open-sans: 'Open Sans', sans-serif;
+
+	/* Transition */
+	--t-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+
+	/* Swiper */
+
+	--swiper-pagination-bottom: 120px;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	/* border: 1px solid red; */
+}
+
+body {
+	background-color: var(--c-white);
+	font-family: var(--f-open-sans);
+	color: var(--c-blue-dark);
+	min-height: 100vh;
+	font-size: 14px;
+}
+
+.icon {
+	display: inline-block;
+	stroke: currentColor;
+	fill: currentColor;
+	stroke-width: 0;
+	height: 1em;
+	width: 1em;
+}
+
+img {
+  object-fit: cover;
+  height: auto;
+	width: 100%;
+  width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
